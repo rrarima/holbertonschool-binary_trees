@@ -122,72 +122,77 @@ clean:
 re:	clean all
 
 0:
-	betty $(SRC0)
+	betty 0-binary_tree_node.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC0) -o $(TARGET0)
 
 1:
-	betty $(SRC1)
+	betty 1-binary_tree_insert_left.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC1) -o $(TARGET1)
 
 2:
-	betty $(SRC2)
+	betty 2-binary_tree_insert_right.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC2) -o $(TARGET2)
 
 3:
-	betty $(SRC3)
+	betty 3-binary_tree_delete.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC3) -o $(TARGET3)
 
 4:
-	betty $(SRC4)
+	betty 4-binary_tree_is_leaf.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC4) -o $(TARGET4)
 
 5:
-	betty $(SRC5)
+	betty 5-binary_tree_is_root.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC5) -o $(TARGET5)
 
 6:
-	betty $(SRC6)
+	betty 6-binary_tree_preorder.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC6) -o $(TARGET6)
 
 7:
-	betty $(SRC7)
+	betty 7-binary_tree_inorder.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC7) -o $(TARGET7)
 
 8:
-	betty $(SRC8)
+	betty 8-binary_tree_postorder.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC8) -o $(TARGET8)
 
 9:
-	betty $(SRC9)
+	betty 9-binary_tree_height.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC9) -o $(TARGET9)
 
 10:
-	betty $(SRC10)
+	betty 10-binary_tree_depth.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC10) -o $(TARGET10)
 
 11:
-	betty $(SRC11)
+	betty 11-binary_tree_size.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC11) -o $(TARGET11)
 
 12:
-	betty $(SRC12)
+	betty 12-binary_tree_leaves.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC12) -o $(TARGET12)
 
 13:
-	betty $(SRC13)
+	betty 13-binary_tree_nodes.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC13) -o $(TARGET13)
+
 14:
-	betty $(SRC14)
+	betty 14-binary_tree_balance.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC14) -o $(TARGET14)
+
 15:
-	betty $(SRC15)
+	betty 15-binary_tree_is_full.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC15) -o $(TARGET15)
+
 16:
-	betty $(SRC16)
+	betty 16-binary_tree_is_perfect.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC16) -o $(TARGET16)
+
 17:
-	betty $(SRC17)
+	betty 17-binary_tree_sibling.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC17) -o $(TARGET17)
+
 18:
-	betty $(SRC18)
+	betty 18-binary_tree_uncle.c
 	$(CC) $(CFLAGS) $(SRC) $(SRC18) -o $(TARGET18)
