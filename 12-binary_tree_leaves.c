@@ -25,7 +25,7 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 
-	if (tree == NULL)
+	if (tree == NULL || binary_tree_is_leaf(tree) == 1)
 	{
 		return (0);
 	}
@@ -33,6 +33,6 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 	{
 		return (1);
 	}
-	return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
+	return (1 + binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 
 }
